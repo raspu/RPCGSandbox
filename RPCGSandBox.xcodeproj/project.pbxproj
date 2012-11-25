@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F40D3D116615D3800C1ED27 /* RPAlgoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40D3D016615D3800C1ED27 /* RPAlgoView.m */; };
+		9F5F4586165FB8CC00ED7210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5F4585165FB8CC00ED7210 /* UIKit.framework */; };
+		9F5F4588165FB8CC00ED7210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5F4587165FB8CC00ED7210 /* Foundation.framework */; };
+		9F5F458A165FB8CC00ED7210 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5F4589165FB8CC00ED7210 /* CoreGraphics.framework */; };
+		9F5F4590165FB8CC00ED7210 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F458E165FB8CC00ED7210 /* Localizable.strings */; };
+		9F5F4592165FB8CC00ED7210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F4591165FB8CC00ED7210 /* main.m */; };
+		9F5F4596165FB8CC00ED7210 /* RPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F4595165FB8CC00ED7210 /* RPAppDelegate.m */; };
+		9F5F4598165FB8CC00ED7210 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F4597165FB8CC00ED7210 /* Default.png */; };
+		9F5F459A165FB8CC00ED7210 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F4599165FB8CC00ED7210 /* Default@2x.png */; };
+		9F5F459C165FB8CC00ED7210 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F459B165FB8CC00ED7210 /* Default-568h@2x.png */; };
+		9F5F45AB165FBBBC00ED7210 /* RPIndiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F45A9165FBBBC00ED7210 /* RPIndiceViewController.m */; };
+		9F5F45AC165FBBBC00ED7210 /* RPIndiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F45AA165FBBBC00ED7210 /* RPIndiceViewController.xib */; };
+		9F5F4658165FCA4C00ED7210 /* RPLineaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F4657165FCA4C00ED7210 /* RPLineaView.m */; };
+		9F5F465C165FD93C00ED7210 /* RPCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F465B165FD93C00ED7210 /* RPCircleView.m */; };
+		9F5F46B2165FE04800ED7210 /* RPCuadradoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46B1165FE04800ED7210 /* RPCuadradoView.m */; };
+		9F5F46B5165FEA1800ED7210 /* RPArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46B4165FEA1800ED7210 /* RPArcView.m */; };
+		9F5F46B816606BEF00ED7210 /* RPTrianguloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46B716606BEF00ED7210 /* RPTrianguloView.m */; };
+		9F5F46BB16606E0200ED7210 /* RPGradienteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46BA16606E0200ED7210 /* RPGradienteView.m */; };
+		9F5F46C41660772A00ED7210 /* RPFingerTrapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46C31660772A00ED7210 /* RPFingerTrapView.m */; };
+		9F5F46C716607B6500ED7210 /* RPFractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46C616607B6400ED7210 /* RPFractalView.m */; };
+		9F5F477016612E0100ED7210 /* RPAnimatedFractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F476F16612E0000ED7210 /* RPAnimatedFractalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F40D3CF16615D3800C1ED27 /* RPAlgoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPAlgoView.h; path = Examples/RPAlgoView.h; sourceTree = "<group>"; };
+		9F40D3D016615D3800C1ED27 /* RPAlgoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPAlgoView.m; path = Examples/RPAlgoView.m; sourceTree = "<group>"; };
+		9F5F4581165FB8CC00ED7210 /* RPCGSandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPCGSandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5F4585165FB8CC00ED7210 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F5F4587165FB8CC00ED7210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F5F4589165FB8CC00ED7210 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F5F458D165FB8CC00ED7210 /* RPCGSandBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPCGSandBox-Info.plist"; sourceTree = "<group>"; };
+		9F5F458F165FB8CC00ED7210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F5F4591165FB8CC00ED7210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F5F4593165FB8CC00ED7210 /* RPCGSandBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPCGSandBox-Prefix.pch"; sourceTree = "<group>"; };
+		9F5F4594165FB8CC00ED7210 /* RPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPAppDelegate.h; sourceTree = "<group>"; };
+		9F5F4595165FB8CC00ED7210 /* RPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPAppDelegate.m; sourceTree = "<group>"; };
+		9F5F4597165FB8CC00ED7210 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F5F4599165FB8CC00ED7210 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F5F459B165FB8CC00ED7210 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F5F45A8165FBBBC00ED7210 /* RPIndiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPIndiceViewController.h; sourceTree = "<group>"; };
+		9F5F45A9165FBBBC00ED7210 /* RPIndiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPIndiceViewController.m; sourceTree = "<group>"; };
+		9F5F45AA165FBBBC00ED7210 /* RPIndiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPIndiceViewController.xib; sourceTree = "<group>"; };
+		9F5F4600165FBD8C00ED7210 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		9F5F4601165FBE5900ED7210 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F5F4656165FCA4C00ED7210 /* RPLineaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLineaView.h; path = Examples/RPLineaView.h; sourceTree = "<group>"; };
+		9F5F4657165FCA4C00ED7210 /* RPLineaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPLineaView.m; path = Examples/RPLineaView.m; sourceTree = "<group>"; };
+		9F5F465A165FD93C00ED7210 /* RPCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCircleView.h; path = Examples/RPCircleView.h; sourceTree = "<group>"; };
+		9F5F465B165FD93C00ED7210 /* RPCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPCircleView.m; path = Examples/RPCircleView.m; sourceTree = "<group>"; };
+		9F5F46B0165FE04800ED7210 /* RPCuadradoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPCuadradoView.h; path = Examples/RPCuadradoView.h; sourceTree = "<group>"; };
+		9F5F46B1165FE04800ED7210 /* RPCuadradoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPCuadradoView.m; path = Examples/RPCuadradoView.m; sourceTree = "<group>"; };
+		9F5F46B3165FEA1800ED7210 /* RPArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPArcView.h; path = Examples/RPArcView.h; sourceTree = "<group>"; };
+		9F5F46B4165FEA1800ED7210 /* RPArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPArcView.m; path = Examples/RPArcView.m; sourceTree = "<group>"; };
+		9F5F46B616606BEF00ED7210 /* RPTrianguloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPTrianguloView.h; path = Examples/RPTrianguloView.h; sourceTree = "<group>"; };
+		9F5F46B716606BEF00ED7210 /* RPTrianguloView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPTrianguloView.m; path = Examples/RPTrianguloView.m; sourceTree = "<group>"; };
+		9F5F46B916606E0200ED7210 /* RPGradienteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPGradienteView.h; path = Examples/RPGradienteView.h; sourceTree = "<group>"; };
+		9F5F46BA16606E0200ED7210 /* RPGradienteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPGradienteView.m; path = Examples/RPGradienteView.m; sourceTree = "<group>"; };
+		9F5F46C21660772A00ED7210 /* RPFingerTrapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPFingerTrapView.h; path = Examples/RPFingerTrapView.h; sourceTree = "<group>"; };
+		9F5F46C31660772A00ED7210 /* RPFingerTrapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPFingerTrapView.m; path = Examples/RPFingerTrapView.m; sourceTree = "<group>"; };
+		9F5F46C516607B6400ED7210 /* RPFractalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPFractalView.h; path = Examples/RPFractalView.h; sourceTree = "<group>"; };
+		9F5F46C616607B6400ED7210 /* RPFractalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPFractalView.m; path = Examples/RPFractalView.m; sourceTree = "<group>"; };
+		9F5F476E16612E0000ED7210 /* RPAnimatedFractalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPAnimatedFractalView.h; path = Examples/RPAnimatedFractalView.h; sourceTree = "<group>"; };
+		9F5F476F16612E0000ED7210 /* RPAnimatedFractalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPAnimatedFractalView.m; path = Examples/RPAnimatedFractalView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5F457E165FB8CC00ED7210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F4586165FB8CC00ED7210 /* UIKit.framework in Frameworks */,
+				9F5F4588165FB8CC00ED7210 /* Foundation.framework in Frameworks */,
+				9F5F458A165FB8CC00ED7210 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5F4576165FB8CC00ED7210 = {
+			isa = PBXGroup;
+			children = (
+				9F5F458B165FB8CC00ED7210 /* RPCGSandBox */,
+				9F5F4584165FB8CC00ED7210 /* Frameworks */,
+				9F5F4582165FB8CC00ED7210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5F4582165FB8CC00ED7210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F4581165FB8CC00ED7210 /* RPCGSandBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F5F4584165FB8CC00ED7210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F4585165FB8CC00ED7210 /* UIKit.framework */,
+				9F5F4587165FB8CC00ED7210 /* Foundation.framework */,
+				9F5F4589165FB8CC00ED7210 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F5F458B165FB8CC00ED7210 /* RPCGSandBox */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F4600165FBD8C00ED7210 /* config.h */,
+				9F5F4594165FB8CC00ED7210 /* RPAppDelegate.h */,
+				9F5F4595165FB8CC00ED7210 /* RPAppDelegate.m */,
+				9F5F45A8165FBBBC00ED7210 /* RPIndiceViewController.h */,
+				9F5F45A9165FBBBC00ED7210 /* RPIndiceViewController.m */,
+				9F5F45AA165FBBBC00ED7210 /* RPIndiceViewController.xib */,
+				9F5F4655165FC8F200ED7210 /* Examples */,
+				9F5F458C165FB8CC00ED7210 /* Supporting Files */,
+			);
+			path = RPCGSandBox;
+			sourceTree = "<group>";
+		};
+		9F5F458C165FB8CC00ED7210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F458D165FB8CC00ED7210 /* RPCGSandBox-Info.plist */,
+				9F5F458E165FB8CC00ED7210 /* Localizable.strings */,
+				9F5F4591165FB8CC00ED7210 /* main.m */,
+				9F5F4593165FB8CC00ED7210 /* RPCGSandBox-Prefix.pch */,
+				9F5F4597165FB8CC00ED7210 /* Default.png */,
+				9F5F4599165FB8CC00ED7210 /* Default@2x.png */,
+				9F5F459B165FB8CC00ED7210 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F5F4655165FC8F200ED7210 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F4656165FCA4C00ED7210 /* RPLineaView.h */,
+				9F5F4657165FCA4C00ED7210 /* RPLineaView.m */,
+				9F5F465A165FD93C00ED7210 /* RPCircleView.h */,
+				9F5F465B165FD93C00ED7210 /* RPCircleView.m */,
+				9F5F46B0165FE04800ED7210 /* RPCuadradoView.h */,
+				9F5F46B1165FE04800ED7210 /* RPCuadradoView.m */,
+				9F5F46B3165FEA1800ED7210 /* RPArcView.h */,
+				9F5F46B4165FEA1800ED7210 /* RPArcView.m */,
+				9F5F46B616606BEF00ED7210 /* RPTrianguloView.h */,
+				9F5F46B716606BEF00ED7210 /* RPTrianguloView.m */,
+				9F5F46B916606E0200ED7210 /* RPGradienteView.h */,
+				9F5F46BA16606E0200ED7210 /* RPGradienteView.m */,
+				9F5F46C21660772A00ED7210 /* RPFingerTrapView.h */,
+				9F5F46C31660772A00ED7210 /* RPFingerTrapView.m */,
+				9F5F46C516607B6400ED7210 /* RPFractalView.h */,
+				9F5F46C616607B6400ED7210 /* RPFractalView.m */,
+				9F5F476E16612E0000ED7210 /* RPAnimatedFractalView.h */,
+				9F5F476F16612E0000ED7210 /* RPAnimatedFractalView.m */,
+				9F40D3CF16615D3800C1ED27 /* RPAlgoView.h */,
+				9F40D3D016615D3800C1ED27 /* RPAlgoView.m */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5F4580165FB8CC00ED7210 /* RPCGSandBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5F45A5165FB8CC00ED7210 /* Build configuration list for PBXNativeTarget "RPCGSandBox" */;
+			buildPhases = (
+				9F5F457D165FB8CC00ED7210 /* Sources */,
+				9F5F457E165FB8CC00ED7210 /* Frameworks */,
+				9F5F457F165FB8CC00ED7210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPCGSandBox;
+			productName = RPCGSandBox;
+			productReference = 9F5F4581165FB8CC00ED7210 /* RPCGSandBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5F4578165FB8CC00ED7210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Raspu Inc";
+			};
+			buildConfigurationList = 9F5F457B165FB8CC00ED7210 /* Build configuration list for PBXProject "RPCGSandBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 9F5F4576165FB8CC00ED7210;
+			productRefGroup = 9F5F4582165FB8CC00ED7210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5F4580165FB8CC00ED7210 /* RPCGSandBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5F457F165FB8CC00ED7210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F4590165FB8CC00ED7210 /* Localizable.strings in Resources */,
+				9F5F4598165FB8CC00ED7210 /* Default.png in Resources */,
+				9F5F459A165FB8CC00ED7210 /* Default@2x.png in Resources */,
+				9F5F459C165FB8CC00ED7210 /* Default-568h@2x.png in Resources */,
+				9F5F45AC165FBBBC00ED7210 /* RPIndiceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5F457D165FB8CC00ED7210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5F4592165FB8CC00ED7210 /* main.m in Sources */,
+				9F5F4596165FB8CC00ED7210 /* RPAppDelegate.m in Sources */,
+				9F5F45AB165FBBBC00ED7210 /* RPIndiceViewController.m in Sources */,
+				9F5F4658165FCA4C00ED7210 /* RPLineaView.m in Sources */,
+				9F5F465C165FD93C00ED7210 /* RPCircleView.m in Sources */,
+				9F5F46B2165FE04800ED7210 /* RPCuadradoView.m in Sources */,
+				9F5F46B5165FEA1800ED7210 /* RPArcView.m in Sources */,
+				9F5F46B816606BEF00ED7210 /* RPTrianguloView.m in Sources */,
+				9F5F46BB16606E0200ED7210 /* RPGradienteView.m in Sources */,
+				9F5F46C41660772A00ED7210 /* RPFingerTrapView.m in Sources */,
+				9F5F46C716607B6500ED7210 /* RPFractalView.m in Sources */,
+				9F5F477016612E0100ED7210 /* RPAnimatedFractalView.m in Sources */,
+				9F40D3D116615D3800C1ED27 /* RPAlgoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F5F458E165FB8CC00ED7210 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5F458F165FB8CC00ED7210 /* en */,
+				9F5F4601165FBE5900ED7210 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F5F45A3165FB8CC00ED7210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F5F45A4165FB8CC00ED7210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F5F45A6165FB8CC00ED7210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPCGSandBox/RPCGSandBox-Prefix.pch";
+				INFOPLIST_FILE = "RPCGSandBox/RPCGSandBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F5F45A7165FB8CC00ED7210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPCGSandBox/RPCGSandBox-Prefix.pch";
+				INFOPLIST_FILE = "RPCGSandBox/RPCGSandBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5F457B165FB8CC00ED7210 /* Build configuration list for PBXProject "RPCGSandBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5F45A3165FB8CC00ED7210 /* Debug */,
+				9F5F45A4165FB8CC00ED7210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5F45A5165FB8CC00ED7210 /* Build configuration list for PBXNativeTarget "RPCGSandBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5F45A6165FB8CC00ED7210 /* Debug */,
+				9F5F45A7165FB8CC00ED7210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F5F4578165FB8CC00ED7210 /* Project object */;
+}

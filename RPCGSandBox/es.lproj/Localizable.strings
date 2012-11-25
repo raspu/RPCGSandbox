@@ -1,0 +1,22 @@
+/* Localized versions of Info.plist keys */
+
+"BASE" = "1 - Básicos";
+"COMP" = "2 - Composición";
+//"ANIM" = "3 - Animación";
+"EXTRA" = "3 - Extra";
+
+/*BASE*/
+"LINE" = "A - Líneas";
+"SQUARE" = "B - Cuadrado";
+"CIRCLE" = "C - Círculo";
+"ARC" = "D - Arco";
+
+/*COMPOSITION*/
+"TRIANGLE" = "A - Triángulo";
+"THING" = "B - Algo";
+"FINGERTRAP" = "C - Trampa para dedos";
+"FRACTAL" = "D - Fractal";
+
+/*EXTRA*/
+"GRADIENT" = "Gradiente";
+"ANIMFRAC" = "Fractal Animado";
