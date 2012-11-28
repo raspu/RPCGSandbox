@@ -14,5 +14,6 @@
     float stepInterval;
     float startAngle;
     float sizerStart;
+    double lastTime;
 }
 @end
