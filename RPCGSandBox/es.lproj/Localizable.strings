@@ -2,8 +2,8 @@
 
 "BASE" = "1 - Básicos";
 "COMP" = "2 - Composición";
-//"ANIM" = "3 - Animación";
-"EXTRA" = "3 - Extra";
+"TXTIMG" = "3 - Texto e Imágenes";
+"EXTRA" = "4 - Extra";
 
 /*BASE*/
 "LINE" = "A - Líneas";
@@ -13,9 +13,14 @@
 
 /*COMPOSITION*/
 "TRIANGLE" = "A - Triángulo";
-"THING" = "B - Algo";
-"FINGERTRAP" = "C - Trampa para dedos";
-"FRACTAL" = "D - Fractal";
+"ALPHA" = "B - Transparencia";
+"THING" = "C - Algo";
+"FINGERTRAP" = "D - Trampa para dedos";
+"FRACTAL" = "E - Fractal";
+
+/*TXTIMG*/
+"IMAGE" = "A - Imágenes";
+"TEXT" = "B - Texto";
 
 /*EXTRA*/
 "GRADIENT" = "Gradiente";

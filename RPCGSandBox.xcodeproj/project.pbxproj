@@ -28,6 +28,10 @@
 		9F5F46C41660772A00ED7210 /* RPFingerTrapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46C31660772A00ED7210 /* RPFingerTrapView.m */; };
 		9F5F46C716607B6500ED7210 /* RPFractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F46C616607B6400ED7210 /* RPFractalView.m */; };
 		9F5F477016612E0100ED7210 /* RPAnimatedFractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F476F16612E0000ED7210 /* RPAnimatedFractalView.m */; };
+		9F8052E81665A97E008DBF7A /* RPTransparenciaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8052E71665A97E008DBF7A /* RPTransparenciaView.m */; };
+		9F8052EC1665AB6C008DBF7A /* turtle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F8052EB1665AB6C008DBF7A /* turtle.jpeg */; };
+		9F8052EF1665AB8A008DBF7A /* RPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8052EE1665AB8A008DBF7A /* RPImageView.m */; };
+		9F80531B1665AFD6008DBF7A /* RPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F80531A1665AFD6008DBF7A /* RPTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +73,13 @@
 		9F5F46C616607B6400ED7210 /* RPFractalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPFractalView.m; path = Examples/RPFractalView.m; sourceTree = "<group>"; };
 		9F5F476E16612E0000ED7210 /* RPAnimatedFractalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPAnimatedFractalView.h; path = Examples/RPAnimatedFractalView.h; sourceTree = "<group>"; };
 		9F5F476F16612E0000ED7210 /* RPAnimatedFractalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPAnimatedFractalView.m; path = Examples/RPAnimatedFractalView.m; sourceTree = "<group>"; };
+		9F8052E61665A97E008DBF7A /* RPTransparenciaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPTransparenciaView.h; path = Examples/RPTransparenciaView.h; sourceTree = "<group>"; };
+		9F8052E71665A97E008DBF7A /* RPTransparenciaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPTransparenciaView.m; path = Examples/RPTransparenciaView.m; sourceTree = "<group>"; };
+		9F8052EB1665AB6C008DBF7A /* turtle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtle.jpeg; sourceTree = "<group>"; };
+		9F8052ED1665AB8A008DBF7A /* RPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPImageView.h; path = Examples/RPImageView.h; sourceTree = "<group>"; };
+		9F8052EE1665AB8A008DBF7A /* RPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPImageView.m; path = Examples/RPImageView.m; sourceTree = "<group>"; };
+		9F8053191665AFD6008DBF7A /* RPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPTextView.h; path = Examples/RPTextView.h; sourceTree = "<group>"; };
+		9F80531A1665AFD6008DBF7A /* RPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPTextView.m; path = Examples/RPTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +132,7 @@
 				9F5F45A8165FBBBC00ED7210 /* RPIndiceViewController.h */,
 				9F5F45A9165FBBBC00ED7210 /* RPIndiceViewController.m */,
 				9F5F45AA165FBBBC00ED7210 /* RPIndiceViewController.xib */,
+				9F8052EA1665AB43008DBF7A /* Assets */,
 				9F5F4655165FC8F200ED7210 /* Examples */,
 				9F5F458C165FB8CC00ED7210 /* Supporting Files */,
 			);
@@ -164,8 +176,22 @@
 				9F5F476F16612E0000ED7210 /* RPAnimatedFractalView.m */,
 				9F40D3CF16615D3800C1ED27 /* RPAlgoView.h */,
 				9F40D3D016615D3800C1ED27 /* RPAlgoView.m */,
+				9F8052E61665A97E008DBF7A /* RPTransparenciaView.h */,
+				9F8052E71665A97E008DBF7A /* RPTransparenciaView.m */,
+				9F8052ED1665AB8A008DBF7A /* RPImageView.h */,
+				9F8052EE1665AB8A008DBF7A /* RPImageView.m */,
+				9F8053191665AFD6008DBF7A /* RPTextView.h */,
+				9F80531A1665AFD6008DBF7A /* RPTextView.m */,
 			);
 			name = Examples;
+			sourceTree = "<group>";
+		};
+		9F8052EA1665AB43008DBF7A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9F8052EB1665AB6C008DBF7A /* turtle.jpeg */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +252,7 @@
 				9F5F459A165FB8CC00ED7210 /* Default@2x.png in Resources */,
 				9F5F459C165FB8CC00ED7210 /* Default-568h@2x.png in Resources */,
 				9F5F45AC165FBBBC00ED7210 /* RPIndiceViewController.xib in Resources */,
+				9F8052EC1665AB6C008DBF7A /* turtle.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +276,9 @@
 				9F5F46C716607B6500ED7210 /* RPFractalView.m in Sources */,
 				9F5F477016612E0100ED7210 /* RPAnimatedFractalView.m in Sources */,
 				9F40D3D116615D3800C1ED27 /* RPAlgoView.m in Sources */,
+				9F8052E81665A97E008DBF7A /* RPTransparenciaView.m in Sources */,
+				9F8052EF1665AB8A008DBF7A /* RPImageView.m in Sources */,
+				9F80531B1665AFD6008DBF7A /* RPTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

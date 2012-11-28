@@ -15,8 +15,9 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
-        stepInterval = 1/30; //30 fps, the iphone screen dosen't support more.
+        stepInterval = 1/20; //30 fps, the iphone screen dosen't support more.
         timer = [NSTimer scheduledTimerWithTimeInterval:stepInterval target:self selector:@selector(animate) userInfo:nil repeats:NO];
+        startAngle = M_PI/8;
 
     }
     return self;
@@ -24,10 +25,11 @@
 
 -(void) animate
 {
-    startAngle += M_PI/450;
-    sizerStart = self.frame.size.height+1;
-    //sizerStart += 0.5;
-    //if(sizerStart > self.frame.size.height*1.5) sizerStart = self.frame.size.height;
+    //startAngle += M_PI/450;
+    //sizerStart = self.frame.size.height+1;
+    sizerStart += 0.5;
+    NSLog(@"%f",sizerStart/self.frame.size.height);
+    if(sizerStart > self.frame.size.height*1.93) sizerStart = self.frame.size.height*0.52;
     [self setNeedsDisplay];
 }
 

@@ -37,11 +37,17 @@
                 _t(@"COMP"):
                 @{
                     _t(@"TRIANGLE"):@"RPTrianguloView",
-                    _t(@"THING"):@"RPAlgoView",    
+                    _t(@"ALPHA"):@"RPTransparenciaView",
+                    _t(@"THING"):@"RPAlgoView",
                     _t(@"FINGERTRAP"):@"RPFingerTrapView",
                     _t(@"FRACTAL"):@"RPFractalView"
     
                  },
+                _t(@"TXTIMG"):
+                @{
+                    _t(@"IMAGE"):@"RPImageView",
+                    _t(@"TEXT"):@"RPTextView"
+                },
                 _t(@"EXTRA"):
                 @{
                    _t(@"GRADIENT"):@"RPGradienteView",
